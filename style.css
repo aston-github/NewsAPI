@@ -1,0 +1,29 @@
+body{
+margin: auto;
+padding: auto;
+box-sizing: border-box;
+list-styles: none;
+
+}
+a {
+  font-size: 1em;
+  font-weight: bold
+}
+.search {
+color: salmon;
+font-family: 'Carter One', cursive;
+font-size: 4em;
+background-image: url("https://wallpaperaccess.com/full/411002.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px;
+padding: 5%;
+}
+
+img{
+  padding: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
