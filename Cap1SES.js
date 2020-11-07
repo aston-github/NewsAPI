@@ -14,6 +14,7 @@ function retrieve(e){
   let url = "https://newsapi.org/v2/everything?q="
   url = url + topic
   url = url + "&apiKey=78b9d599c4f94f8fa3afb1a5458928d6"
+  console.log(url)
   fetch(url).then((res)=>{
     return res.json()
   }).then((data)=>{
