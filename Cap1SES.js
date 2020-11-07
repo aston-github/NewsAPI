@@ -11,7 +11,7 @@ function retrieve(e){
   newsList.innerHTML = '';
   e.preventDefault()
   let topic = input.value;
-  let url = "http://newsapi.org/v2/everything?q="
+  let url = "https://newsapi.org/v2/everything?q="
   url = url + topic
   url = url + "&apiKey=78b9d599c4f94f8fa3afb1a5458928d6"
   fetch(url).then((res)=>{
