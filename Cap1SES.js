@@ -13,7 +13,7 @@ function retrieve(e){
   let topic = input.value;
   let url = "http://newsapi.org/v2/everything?q="
   url = url + topic
-  url = url + "&apiKey=78b9d599c4f94f8fa3afb1a5458928d6"
+  url = url + "&apiKey=7280b3343b244361a31619ac03a4511b"
   fetch(url).then((res)=>{
     return res.json()
   }).then((data)=>{
